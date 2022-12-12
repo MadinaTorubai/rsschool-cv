@@ -13,3 +13,28 @@ Today my goal is to become a good Frontend developer. Given my curiosity and des
 
 I studied for a master's degree in Logistics, and worked in the same specialty at the same time. I am a perfectionist, and to do something efficiently, accurately, and most importantly to the end is very important to me.
 ---------------------------------------------------
+###Skills:
+*HTML, CSS
+*JavaScript Basics
+*Git, GitHub
+*VS Code
+*Adobe Photoshop, Figma
+---------------------------------------------------
+###Code example:
+function multiply(a, b){
+  if (b < 0) { b = -b; a = -a; }
+  for (var i = 0, c = 0; i < b; ++i) {
+    c += a;
+  }
+  return c;
+}
+###Projects:
+[CV][https://github.com/MadinaTorubai/rsschool-cv.git]
+----------------------------------------------------
+###Education:
+University: 
+Kyrgyz State Technical University named after I. Razzakov, Bachelor's and Master's degree in Logistics
+Courses: 
++RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+###Languages:
+*English-Intermediate (I practiced English when I was working in Germany and traveling around Europe)
