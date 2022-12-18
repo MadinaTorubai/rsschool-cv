@@ -1,0 +1,264 @@
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block-wrapper {
+    padding: 20px 0;
+    border-bottom: 4px solid lightgray;
+}
+
+.header {
+    background-color: gray;
+    padding: 10px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-menu-link {
+    color: white;
+    transition: all .3s linear;
+    font-size: 14px;
+}
+
+.header-menu-link:hover {
+    color: lightgray;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info .avatar-wrapper {
+    max-width: 150px;
+    width: 100%;
+}
+
+.main-info .avatar-wrapper .avatar {
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 1px solid gray;
+}
+
+.main-info .presentation .presentation-name {
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.main-info .presentation {
+    text-align: center;
+}
+
+.main-info .presentation .presentation-name::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 2px;
+    background: gray;
+}
+
+.main-info .presentation .presentation-position {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contacts .contacts-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts .contacts-list .contacts-item {
+    list-style: none;
+}
+
+.contacts .contacts-list .contacts-item a {
+    color: gray
+}
+
+.about-myself {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about-myself .about-myself-title {
+    color: gray;
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.about-myself .about-myself-info {
+    width: calc(100% - 200px);
+}
+
+.about-myself .about-myself-info p {
+    font-size: 14px;
+}
+
+.about-myself .about-myself-info p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.skills .skills-title {
+    font-weight: 400;
+    width: 200px;
+    color: gray;
+}
+
+.skills .skills-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: calc(100% - 200px);
+}
+
+.skills .skills-list .skills-item {
+    font-size: 13px;
+    color: gray;
+}
+
+.code {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.code .code-title {
+    font-weight: 400;
+    width: 200px;
+    color: gray;
+}
+
+.code .code-example {
+    gap: 10px;
+    width: calc(100% - 200px);
+}
+
+.projects {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    align-items: center;
+}
+
+.projects .projects-title {
+    font-weight: 400;
+    width: 200px;
+    color: gray;
+}
+
+.projects .projects-list .projects-item {
+    list-style: none;
+}
+
+.projects .projects-list .projects-item a {
+    color: gray;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.education .education-title {
+    color: gray;
+    font-weight: 400;
+    width: 200px;
+}
+
+.education .education-info {
+    width: calc(100% - 200px);
+}
+
+.education .education-info p {
+    font-size: 14px;
+}
+
+.education .education-info p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.languages .languages-title {
+    color: gray;
+    font-weight: 400;
+    width: 200px;
+}
+
+.languages .languages-info {
+    width: calc(100% - 200px);
+}
+
+.languages .languages-info p {
+    font-size: 14px;
+}
+
+.languages .languages-info p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: gray;
+    padding: 10px;
+}
+
+.footer .footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer .footer-info {
+    font-size: 13px;
+    color: white;
+}
+
+.footer .footer-info .my-link {
+    color: white;
+}
+
+.footer .footer-info .my-link:hover {
+    color: lightgray;
+}
+
+.footer .footer-logo {
+    max-width: 100px;
+
+}
+
+.footer .footer-logo img {
+    width: 100%;
+    height: 50px;
+}
