@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    list-style: none;
 }
 
 .header-menu-link {
@@ -139,6 +140,7 @@
 .skills .skills-list .skills-item {
     font-size: 13px;
     color: gray;
+    list-style: none;
 }
 
 .code {
